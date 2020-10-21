@@ -4,6 +4,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ComponentsScreen from "./screens/ComponentsScreen";
 import ListScreen from "./screens/ListScreen";
 import ImageScreen from './screens/ImageScreen';
+import MainHomeScreen from "./screens/MainHomeScreen";
 // import CounterScreen from './src/screens/CounterScreen';
 // import ColorScreen from './src/screens/ColorScreen';
 // import SquareScreen from './src/screens/SquareScreen';
@@ -30,6 +31,7 @@ navigator = createStackNavigator(
       //Landing: LandingScreen,
       SignIn: SignInScreen,
       Home: HomeScreen,
+      MainScreen:MainHomeScreen,
       //NotifyScreen: NotificationsScreen,
       //MyJobs: MyJobsScreen,
       //MyProfile: MyProfileScreen,

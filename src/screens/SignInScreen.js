@@ -42,7 +42,7 @@ const SignScreen = ({ navigation }) => {
     
     
 
-          <TouchableOpacity onPress={() => navigation.navigate('Home')} >
+          <TouchableOpacity onPress={() => navigation.navigate('MainScreen')} >
       <View style = {styles.SignInBtn}>
  <Text style = {styles.SignInBtnText}>Sign In</Text>
  
